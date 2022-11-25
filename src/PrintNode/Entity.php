@@ -100,9 +100,9 @@ abstract class Entity implements \JsonSerializable
     /**
      * Implements the jsonSerialize method
      * 
-     * @return string
+     * @return mixed
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): mixed
     {
         
         $json = array();
